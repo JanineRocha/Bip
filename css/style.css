@@ -1,0 +1,42 @@
+
+.container{
+
+                                 /* Propriedades */ /* elemento container */
+        text-align: center;     /* Alinhamento horizontal do texto centralizado*/
+        display: block;         /*especifica o tipo de caixa de renderização usada por ume lemento*/
+        box-sizing: border-box;   
+        margin:2em;      
+        padding:2em;
+        box-sizing: border-box;
+        border:50px solid #700;
+
+        }
+
+button{
+        background: #0839;
+        color: black;
+        font-size: 32px;
+        padding: 7px 30px;
+        cursor: pointer;
+        border:0;
+        border-radius: 10px;
+
+        }
+
+ i{
+
+        font-size:5em ;
+        text-align: center;
+
+     }
+
+ h4{
+        
+    text-align: center;
+    font-size:clamp(0.3em, 0.3em + 1vw, 1.5em);
+
+    }
+    select{
+
+        border-radius: 5px;
+    }
